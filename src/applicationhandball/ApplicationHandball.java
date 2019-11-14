@@ -24,6 +24,10 @@ public class ApplicationHandball extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.setTitle("Handball - Match En Direct");
+        stage.setMinHeight(300);
+        stage.setMinWidth(350);
+
         stage.show();
     }
 
