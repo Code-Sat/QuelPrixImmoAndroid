@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TextViews -->
+    <dimen name="size_title">35sp</dimen>
+    <dimen name="size_title_land">30sp</dimen>
+    <dimen name="padding_title_land">10dip</dimen>
+    <dimen name="size_text">20sp</dimen>
+    <dimen name="size_seekbar_text">15sp</dimen>
+
+    <!-- Images -->
+    <dimen name="size_image_height">200dip</dimen>
+    <dimen name="size_image_width">@dimen/size_image_height</dimen>
+    <dimen name="size_image_height_land">100dip</dimen>
+    <dimen name="size_image_width_land">@dimen/size_image_height_land</dimen>
+
+    <!-- Button -->
+    <dimen name="size_button_height">50dip</dimen>
+    <dimen name="size_button_width">150dip</dimen>
+
+    <!-- Seekbar -->
+    <dimen name="size_seekbar_height">15dip</dimen>
+    <dimen name="seek_bar_thickness">4dp</dimen>
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+
+
+    <!-- PADDING ON MAIN MENU -->
+    <dimen name="title_padding_top">25dp</dimen>
+    <dimen name="title_padding_bottom">15dp</dimen>
+    <dimen name="right_border_padding">10dp</dimen>
+    <dimen name="left_border_padding">10dp</dimen>
+
+    <!-- Default NavigationView Header -->
+    <dimen name="nav_header_height">176dp</dimen>
+
+</resources>

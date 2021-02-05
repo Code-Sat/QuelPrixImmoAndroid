@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:orientation="vertical"
+        tools:context="fr.univpau.peio.controller.MainActivity">
+
+        <TextView
+            android:id="@+id/row_result_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left"
+            android:text="19 rue des avenue marchandes, 64210 Arbonne"
+            android:textSize="14sp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/row_result_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="left"
+            android:text="Maison 5 pièces de 102m²"
+            android:textSize="13sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp" />
+
+        <TextView
+            android:id="@+id/row_result_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="left"
+            android:text="Vendu 254 254€ - 1425€/m²"
+            android:textSize="13sp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="6dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
